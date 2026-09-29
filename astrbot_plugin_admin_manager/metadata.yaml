@@ -1,0 +1,10 @@
+name: astrbot_plugin_admin_manager
+display_name: 管理员权限管理器
+desc: 管理员用户管理插件。支持添加/删除管理员、查看管理员列表，通过 @filter.permission_type(filter.PermissionType.ADMIN) 实现 AstrBot 原生权限控制。
+author: Akasha Bridge
+version: v1.0.0
+repo: https://github.com/alingalingling/Akasha-WeChat
+support_platforms:
+  - aiocqhttp
+  - wechat
+astrbot_version: ">=4.20.0"

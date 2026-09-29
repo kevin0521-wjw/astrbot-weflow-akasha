@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 运行时文件
+bridge.log
+bridge.pid
+*.pid
+
+# 配置（含敏感信息）
+config.json
+
+# 虚拟环境
+venv/
+.venv/
+
+# 缓存
+contacts_cache.json
+acl.json
+friends.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 秘密
+.env
+*.pem
+*.key

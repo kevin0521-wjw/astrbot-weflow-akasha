@@ -1,0 +1,33 @@
+# ===== 敏感 / 运行时（绝不提交）=====
+config.json
+**/config.json
+bridge.log
+*.log
+bridge.pid
+*.pid
+admin_users.json
+.env
+*.pem
+*.key
+
+# ===== 备份文件（仅本地保留）=====
+*.bak_*
+*.bak
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+desktop.ini
